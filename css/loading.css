@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwall.alphacoders.com%2Fby_sub_category.php%3Fid%3D298262%26name%3DMichael%2BB.%2BJordan%2BWallpapers%26lang%3DGerman&psig=AOvVaw2ZrIPTfZnsx4TMRxaTKuGb&ust=1677780799778000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOjbgdiqu_0CFQAAAAAdAAAAABAE')
+    no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(30px);
+    z-index: -1;
+    position: absolute;
+}
+
+.loading-text {
+    font-size 50px;
+    color: #ffffff;
