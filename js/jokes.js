@@ -5,9 +5,9 @@ jokeBtn.addEventListener('click', generateJoke)
 
 async function generation(){
     const res = await fetch('https://icanhazdadjoke.com' , {
-        headers: (Accept: 'application/json' ,},
+        headers: {Accept: 'application/json' ,},
     })
 
     const data = await res.json()
-    jokesEL.innerHTML =
+    jokesEL.innerHTML = data.joke
 }
