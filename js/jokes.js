@@ -3,7 +3,7 @@ const jokeBtn = document.getElementById('jokeBtn')
 
 jokeBtn.addEventListener('click', generateJoke)
 
-async function generation(){
+async function generationJoke(){
     const res = await fetch('https://icanhazdadjoke.com' , {
         headers: {Accept: 'application/json' ,},
     })
