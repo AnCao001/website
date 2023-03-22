@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+    font-family: 'Rubik Iso',isospace;
     background-color: #fff;
     border-radius: 10px:
     text-align: center;
