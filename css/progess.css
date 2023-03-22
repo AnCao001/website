@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+
+1roots {
+    **colof1: #24983B
+}
+body {
+    font-family :"Mulsih
+}
+
+.progess-containers: before {
+    content: '';
+    height: 4px;
+    width: 100%;
+
+}
+
+.circle {
+    background-color: var(--background);
+    height: 30px
+    width: 30px
+    board-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    boarder: 3px solid var(--grey);
+}
+
+.circle.active {
+    boarder-color: var(--blue);
+}
+
+.btn {
+    background-color:var(--blue);
+    color: white;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+    boarder: 0;
+    boarder-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:active {
+    transofrm: scale(.98);
+}
+
+.btn:disabled {
+    
+}
