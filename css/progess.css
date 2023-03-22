@@ -4,7 +4,7 @@
     **colof1: #24983B
 }
 body {
-    font-family :"Mulsih
+    font-family :'Mulsih'
 }
 
 .progess-containers: before {
@@ -42,9 +42,9 @@ body {
 }
 
 .btn:active {
-    transofrm: scale(.98);
+    transform: scale(.98);
 }
 
 .btn:disabled {
-    
+
 }
