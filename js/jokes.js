@@ -1,4 +1,4 @@
-const jokeE1 = document.getElementById('joke')
+const jokeEl = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn')
 
 generateJoke()
@@ -13,5 +13,5 @@ async function generationJoke(){
     })
 
     const data = await res.json()
-    jokesEL.innerHTML = data.joke
+    jokesEl.innerHTML = data.joke
 }
