@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
-1roots {
-    **colof1: #24983B
-}
+
 body {
-    font-family :'Mulsih'
-}
-
-.progess-containers: before {
-    content: '';
-    height: 4px;
-    width: 100%;
-
+    font-family: 'Rubik Iso',isospace;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: #263e7f;
 }
 
 .circle {
