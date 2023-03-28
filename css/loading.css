@@ -15,7 +15,7 @@ body {
     no-repeat center center/cover;
     width: 100vw;
     height: 100vh;
-    filter: blur(0px);
+    filter: blur(30px);
     z-index: -1;
     position: absolute;
 }
