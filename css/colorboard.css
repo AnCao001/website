@@ -2,8 +2,7 @@
 
 body {
     background-color: #263e7f;
-    display: flex;
-    height: 0vh;
+    height: 1000vh;
     overflow: hidden;
     margin: 0;
 }
