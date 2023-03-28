@@ -31,10 +31,14 @@ h3 {
     letter-spacing: 1px;
     line-height: 40px;
     margin: 50px auto;
-    max-width: 600px;
+    max-width: 680px;
 }
 
 .btn {
     background-color: #9f68e0;
-    color
+    color: #fff;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
 }
