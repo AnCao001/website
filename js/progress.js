@@ -42,9 +42,9 @@ function update() {
         next.disabled = false
     }
 
-    
+
     circles.forEach((circle, index) => {
-        if (index < currentAcitve {
+        if (index < currentActive) {
             circle.classList.add('active')
         }
         else {
