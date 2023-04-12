@@ -14,10 +14,10 @@ next.addEventListerner('click', () =>) {
     }
 
     update()
-}
+})
 
 
-prev.addEventListener('click' , () =>{
+prev.addEventListener('click' , () => {
     currentAcitve--
 
     if (currentActive < 1) {
@@ -27,7 +27,7 @@ prev.addEventListener('click' , () =>{
     update()
 })
 
-functio update() {
+function update() {
     progress.style.width = (currentActive - 1) /3 * 100 + '%'
 
     if (currentActive == 1) {
