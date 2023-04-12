@@ -3,6 +3,19 @@
 
 body {
     font-family: 'Rubik Iso',isospace;
+    background-color: #263e7f;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    aling-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
 :root {
     --blue: #3498db;
     --grey: #383838;
