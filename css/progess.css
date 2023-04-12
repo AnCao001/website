@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
 
+:root {
+    --blue: #3498db;
+    --grey: #383838:
+}
+
+
 body {
     font-family: 'Rubik Iso',isospace;
     background-color: #263e7f;
@@ -17,54 +23,10 @@ body {
     text-align: center;
 }
 
-
-body {
-    font-family: 'Rubik Iso',isospace;
+.progress-container {
+    background-color: yellow;
     display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    overflow: hidden;
-    background-color: #263e7f;
-    color: white;
-}
-
-.container {
-    text-align: center;
-}
-
-.circle {
-    background-color: var(--background);
-    height: 30px
-    width: 30px
-    board-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    boarder: 3px solid var(--grey);
-}
-
-.circle.active {
-    boarder-color: var(--blue);
-}
-
-.btn {
-    background-color:var(--blue);
-    color: white;
-    padding: 8px 30px;
-    margin: 5px;
-    font-size: 14px;
-    boarder: 0;
-    boarder-radius: 6px;
-    cursor: pointer;
-    font-family: inherit;
-}
-
-.btn:active {
-    transform: scale(.98);
-}
-
-.btn:disabled {
+    justify-content: space-between;
 
 }
+
