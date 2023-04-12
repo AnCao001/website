@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Rubik Iso',isospace;
-    background-color: #263e7f;
+    background-color: #1f1f1f;
     display: flex;
     height: 100vh;
     aling-items: center;
@@ -63,5 +63,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border: 30px solid var(--grey);
+
 }
