@@ -51,4 +51,6 @@ body {
     left: 0;
     height: 4px;
     width: 50%;
+    z-index: -1;
+    transform: translateY(-50%);
 }
