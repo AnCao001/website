@@ -29,16 +29,20 @@ prev.addEventListener('click' , () => {
 })
 
 function update() {
-    console.log("HELLO")
-    progress.style.width = 20 + '%'
-    progress.style.width = (currentActive - 1) /3 * 100 + '%'
+    progress.style.width = (currentActive - 1) / 3 * 100 + '%'
 
     if (currentActive == 1) {
-        pev.dishaload = true
+        prev.disabled = true
     }
-    else if (curentActive == 4)
-    `next.diabled
+    else if (curentActive == 4){
+        next.diabled = true
+    }
+    else {
+        prev.disabled = false
+        next.disabled = false
+    }
 
+    
     circles.forEach((circle, index) => {
         if (index < currentAcitve {
             circle.classList.add('active')
