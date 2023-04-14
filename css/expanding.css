@@ -10,12 +10,12 @@ body {
     overflow: hidden;
 }
 
-.container{
+.container {
     display: flex;
     width: 90vw;
 }
 
-.panel{
+.panel {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,12 +24,12 @@ body {
     flex: 1;
     border-radius: 50px;
     cursor: pointer;
-    position relative;
+    position: relative;
     color: #ffffff;
     transition: all 1s ease-in;
 }
 
-.panel.active{
+.panel.active {
     flex: 10;
 }
 
@@ -38,17 +38,12 @@ body {
     transition: opacity 0.5s ease-in 0.5s;
 }
 
-.panel h3{
+.panel h3 {
     font-size: 24px;
     position: absolute;
     bottom: 20px;
-    opacity: 0;
     left: 20px;
-}
-
-.panel.active h3{
-    opacity: 1;
-    transition: opacity 0.5s ease-in 0.5s;
+    opacity: 0;
 }
 
 @media (max-width: 480px) {
