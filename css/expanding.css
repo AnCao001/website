@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
-
-body{
+body {
+    font-family: 'Rubik Iso',isospace;
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
-    sargin: 0;
+    margin: 0;
     overflow: hidden;
 }
 
@@ -24,7 +25,7 @@ body{
     border-radius: 50px;
     cursor: pointer;
     position relative;
-    color: ffffff;
+    color: #ffffff;
     transition: all 1s ease-in;
 }
 
